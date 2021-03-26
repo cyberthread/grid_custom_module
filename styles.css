@@ -1,0 +1,99 @@
+/* CSS RESET */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+/* TYPOGRAPHY */
+html {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+h2 {
+	line-height: 1.2em;
+	margin-top: 1rem;
+}
+p {
+	margin-top: 1rem;
+}
+.author {
+	font-weight: bold;
+}
+
+.byline {
+	font-style: italic;
+	margin-top: 1.5rem;
+}
+/* styles for feature article typography */
+#feature {
+	text-align: center;
+}
+#feature h2 {
+	font-size: 2rem;
+}
+#feature .description {
+	font-style: italic;
+}
+
+/* Styles for secondary article typography */
+#secondary {
+	text-align: center;
+}
+#secondary h2 {
+	font-size: 1.67rem;
+}
+.author {
+	font-size: small;
+}
+/* styles for tertiary article typography */
+#tertiary h2 {
+	font-size: 1.33rem;
+}
+
+
+/* IMAGES */
+img {
+	display: block;
+	width: 100%;
+}
+
+#secondary img {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* LAYOUT */
+main {
+	width: 90%;
+	max-width: 36rem;
+	margin: 1rem auto;
+}
+
+article {
+	border-bottom: 1px solid #000000;
+	padding: 1rem 0 3rem;
+}
+
+@media screen and (min-width:36rem){
+	main {
+		max-width: 66rem;
+	}
+}
+@media screen and (min-width:66rem){
+	main {
+		max-width: 80rem;
+	}
+}

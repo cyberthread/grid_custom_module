@@ -14,7 +14,7 @@ These layouts will require explicitly placing items on the grid using grid colum
 
 ## Tasks
 - **Preview**: Take time to understand what it is that you actually need to do.
-	- [Wireframes in Miro](https://miro.com/app/board/o9J_lNZ1iXo=/) indicate what the layouts should be as the screen size changes.
+	- Wireframes.pdf indicates what the layouts should be as the screen size changes. The included screenshots can help you visualize what it will look like in the browser with the implemented typography.
 	- Carefully review the HTML and the parent-child relationships. I recommend creating a little outline for yourself and/or annotating the wireframes with the markup that corresponds, including things like class names and IDs.
 - **Small Screens**: Hint, you don't need to do anything. The small screen design is already done! This means that all grid code will be in media queries!
 - **Medium Screens**: Implement the two column layout for the tertiary articles. The rest of the design remains a one column layout.
